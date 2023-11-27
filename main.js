@@ -6,11 +6,13 @@ function preload() {
 
 function setup() {
 	canvas = createCanvas(1240,336);
+	canvas.parent("canavs");
+
 	instializeInSetup(mario);
 }
 
 function draw() {
-	game()
+	game();
 }
 
 
